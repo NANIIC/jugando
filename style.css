@@ -62,5 +62,9 @@ body{
     border: 2px solid #22D4FD;
     display: flex;
     justify-content: center;
-    gap:16px;
+    gap:16px;  /*para que separe*/
+
+}
+.presentacion__enlaces__link:hover{
+    background-color: #272727;
 }
