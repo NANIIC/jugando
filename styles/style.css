@@ -10,16 +10,38 @@ body{
     color : #F6F6F6; 
     box-sizing: border-box;
 }
+.header{
+    padding: 2% 0% 0% 15%;
 
-.titulo-destaque{
-    color: #22D4FD;
 }
+.header__menu {
+    display: flex;
+    gap: 80px;
+    
+    
+}
+.header__menu__link {
+    font-size: 24px;
+    color: #22D4FD;
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.header__menu__link:hover {
+    color: #007bff;
+}
+
+
 .presentacion{
+    
     display: flex;
     align-items: center;
-    margin: 10% ;
+    padding: 6% 15%;
     justify-content: space-between;
 }
+
 .presentacion__contenido{
     width: 615px;
     display: flex;
@@ -30,6 +52,9 @@ body{
     font-size: 36px;
     font-family: "Krona One", sans-serif;
 
+}
+.titulo-destaque{
+    color: #22D4FD;
 }
 .presentacion__contenido__texto{
     font-size: 24px;
@@ -51,7 +76,8 @@ body{
 .presentacion__enlaces__link{
     width: 370px;
     text-align: center;
-    padding: 21.5px 0;
+    padding: 21.5px 0; /*sirvio para que el boton sea mas grande
+    y de esta manera no apriete las letras y elícono*/
     border-radius: 8px;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
@@ -68,7 +94,7 @@ body{
     /*Este hover sirve cuando vamos con el mouse para ese lado*/
     cursor: pointer;
     background-color: #272727;
-    border: 2px solid #0000FF;
+    border: 2px solid #22D4FD;
     
 }
 .footer{
