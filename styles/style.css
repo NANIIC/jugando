@@ -149,7 +149,11 @@ body{
 su forma y se vea como una columba la imagen y no uno al lado de otro- ponemos
 column-reverse porque antes la imagenn estaba abajo!*/
     .presentacion{
-        
         flex-direction: column-reverse;
+        padding: 5%;
+        
+    }
+    .presentacion__contenido{
+        width: auto;
     }
 }
