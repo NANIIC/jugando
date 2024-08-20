@@ -137,3 +137,11 @@ body{
     font-size: 1.5rem;
     font-weight: 400;
 }
+/*Para ajustar el tamaño de la pantalla este menos a 1200 en este caso cambie
+su forma y se vea como una columba la imagen y no uno al lado de otro*/
+@media (max-width: 1200px ){
+    .presentacion{
+        
+        flex-direction: column;
+    }
+}
